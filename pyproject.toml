@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "permission-postgres"
+version = "0.1.0"
+description = ""
+authors = ["qusaiqishta <qeshtaqusai0@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+djangorestframework = "^3.12.4"
+psycopg2 = "^2.9.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
